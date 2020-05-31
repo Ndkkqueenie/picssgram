@@ -1,5 +1,5 @@
 {
-  "name": "Reactpictogram",
+  "name": "reactpictogram",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "test-watch": "mocha -w setup.js test/**/*-test.js && exit 0",
     "build": "webpack",
     "watch": "webpack --watch",
-    "start": "http-server ./app -a localhost -p 2000 -c-1",
+    "start": "http-server ./app -a localhost -p 2001 -c-1",
     "sass": "sass --watch app/styles/scss/style.scss:app/styles/css/style.css"
   },
   "keywords": [],
