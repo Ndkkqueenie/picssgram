@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "release" : "sh ./build.sh",
-    "test": "mocha setup.js test/**/*-test.js && exit 0",
-    "test-watch": "mocha -w setup.js test/**/*-test.js && exit 0",
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "start": "http-server ./app -a localhost -p 2001 -c-1",
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "sass": "sass --watch app/styles/scss/style.scss:app/styles/css/style.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "keywords": [],
   "author": "",
